@@ -51,7 +51,9 @@ class _LoginPageState extends State<LoginPage> {
                       labelText: "Password",
                     ),
                   ),
+
                   SizedBox(height: 30),
+
                   InkWell(
                       onTap: () async {
                         setState(() {
