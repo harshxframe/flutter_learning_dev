@@ -8,8 +8,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final String days = "Hello Again";
     return Scaffold(
-      appBar: AppBar(title: Text("Go Abroad")),
+      appBar: AppBar(
+          title: Text("Go Abroad",style: TextStyle(color: Colors.black),)
+      ),
       body: Material(
+        color: Colors.grey,
         child: Center(child: Text("Hello $days Harsh Sir! From External file")),
       ),
       drawer: MyDrawer(),
