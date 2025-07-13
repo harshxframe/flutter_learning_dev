@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_learning_dev/pages/login_page.dart';
 import 'package:flutter_learning_dev/widgets/themes.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       debugShowCheckedModeBanner: true,
       themeMode: ThemeMode.dark,

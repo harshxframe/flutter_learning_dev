@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
     final String days = "Hello Again";
     return Scaffold(
       appBar: AppBar(
-          title: Text("Go Abroad",style: TextStyle(color: Colors.black),)
+        title: Text("Catalog App"),
       ),
       body: Material(
         color: Colors.grey,
