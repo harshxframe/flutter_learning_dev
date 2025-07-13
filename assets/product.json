@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone",
+    "desc": "A sleek smartphone with all-day battery life.",
+    "price": "₹12,999",
+    "color": "Black",
+    "image": "https://picsum.photos/id/1/200/300"
+  },
+  {
+    "id": "2",
+    "name": "Wireless Earbuds",
+    "desc": "Noise-cancelling Bluetooth earbuds.",
+    "price": "₹2,499",
+    "color": "White",
+    "image": "https://picsum.photos/id/2/200/300"
+  },
+  {
+    "id": "3",
+    "name": "Smartwatch",
+    "desc": "Track your health and fitness.",
+    "price": "₹4,299",
+    "color": "Silver",
+    "image": "https://picsum.photos/id/3/200/300"
+  },
+  {
+    "id": "4",
+    "name": "Gaming Mouse",
+    "desc": "RGB mouse for pro gaming.",
+    "price": "₹999",
+    "color": "Red",
+    "image": "https://picsum.photos/id/4/200/300"
+  },
+  {
+    "id": "5",
+    "name": "Laptop Stand",
+    "desc": "Ergonomic laptop stand.",
+    "price": "₹799",
+    "color": "Gray",
+    "image": "https://picsum.photos/id/5/200/300"
+  },
+  {
+    "id": "6",
+    "name": "Bluetooth Speaker",
+    "desc": "Portable speaker with deep bass.",
+    "price": "₹1,499",
+    "color": "Blue",
+    "image": "https://picsum.photos/id/6/200/300"
+  },
+  {
+    "id": "7",
+    "name": "LED Monitor",
+    "desc": "24-inch full HD monitor.",
+    "price": "₹7,999",
+    "color": "Black",
+    "image": "https://picsum.photos/id/7/200/300"
+  },
+  {
+    "id": "8",
+    "name": "Keyboard",
+    "desc": "Mechanical keyboard with backlight.",
+    "price": "₹1,199",
+    "color": "White",
+    "image": "https://picsum.photos/id/8/200/300"
+  },
+  {
+    "id": "9",
+    "name": "Tablet",
+    "desc": "Compact tablet for entertainment.",
+    "price": "₹9,999",
+    "color": "Gold",
+    "image": "https://picsum.photos/id/9/200/300"
+  },
+  {
+    "id": "10",
+    "name": "Fitness Band",
+    "desc": "Track steps, calories, and sleep.",
+    "price": "₹1,299",
+    "color": "Black",
+    "image": "https://picsum.photos/id/10/200/300"
+  },
+  {
+    "id": "11",
+    "name": "Webcam",
+    "desc": "HD webcam for meetings.",
+    "price": "₹1,499",
+    "color": "Black",
+    "image": "https://picsum.photos/id/11/200/300"
+  },
+  {
+    "id": "12",
+    "name": "Ring Light",
+    "desc": "Perfect lighting for creators.",
+    "price": "₹699",
+    "color": "White",
+    "image": "https://picsum.photos/id/12/200/300"
+  },
+  {
+    "id": "13",
+    "name": "Drone",
+    "desc": "Capture the sky in HD.",
+    "price": "₹15,999",
+    "color": "White",
+    "image": "https://picsum.photos/id/13/200/300"
+  },
+  {
+    "id": "14",
+    "name": "Camera Tripod",
+    "desc": "Stable tripod for professional photos.",
+    "price": "₹1,099",
+    "color": "Silver",
+    "image": "https://picsum.photos/id/14/200/300"
+  },
+  {
+    "id": "15",
+    "name": "USB Hub",
+    "desc": "Expand your ports easily.",
+    "price": "₹499",
+    "color": "Black",
+    "image": "https://picsum.photos/id/15/200/300"
+  },
+  {
+    "id": "16",
+    "name": "External Hard Drive",
+    "desc": "1TB storage for all your files.",
+    "price": "₹3,999",
+    "color": "Gray",
+    "image": "https://picsum.photos/id/16/200/300"
+  },
+  {
+    "id": "17",
+    "name": "Action Camera",
+    "desc": "Waterproof and durable action cam.",
+    "price": "₹5,499",
+    "color": "Black",
+    "image": "https://picsum.photos/id/17/200/300"
+  },
+  {
+    "id": "18",
+    "name": "Electric Kettle",
+    "desc": "Quick and safe boiling.",
+    "price": "₹1,199",
+    "color": "White",
+    "image": "https://picsum.photos/id/18/200/300"
+  },
+  {
+    "id": "19",
+    "name": "Microwave Oven",
+    "desc": "Cook your meals faster.",
+    "price": "₹6,499",
+    "color": "Silver",
+    "image": "https://picsum.photos/id/19/200/300"
+  },
+  {
+    "id": "20",
+    "name": "Air Purifier",
+    "desc": "Breathe clean and fresh air.",
+    "price": "₹8,999",
+    "color": "White",
+    "image": "https://picsum.photos/id/20/200/300"
+  }
+]
