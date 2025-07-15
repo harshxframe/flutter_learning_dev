@@ -36,14 +36,31 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
-      body: (CatalogModel.items.isNotEmpty)?ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: CatalogModel.items.length,
-        itemBuilder: (context, index){
-          return ItemWidget(
-            item: CatalogModel.items[index],
-          );
-        },
+      body: (CatalogModel.items.isNotEmpty)?GridView.builder(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, mainAxisSpacing: 16, crossAxisSpacing: 16),
+          itemBuilder: (context, index){
+            return Card(
+              clipBehavior: Clip.antiAlias,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)
+                ),
+                child: GridTile(
+                  header: Container(child: Text(CatalogModel.items[index].name, style: TextStyle(color: Colors.white),),
+                  padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: Colors.deepPurple
+                    ),
+                  ),
+                  footer: Container(padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                  color: Colors.black
+              ),child: Text(CatalogModel.items[index].name, style: TextStyle(color: Colors.white),),
+            ),
+                    child: Image.network(CatalogModel.items[index].image, fit: BoxFit.cover,),
+                )
+            );
+          },
+          itemCount: CatalogModel.items.length
       ):Center(child:CircularProgressIndicator()),
       drawer: MyDrawer(),
     );
