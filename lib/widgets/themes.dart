@@ -19,6 +19,7 @@ class MyTheme{
       primarySwatch: Colors.deepPurple,
     brightness: Brightness.light
   );
+  static Color creamColor = Color(0xff403b58);
 
 
 }
